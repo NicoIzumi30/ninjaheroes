@@ -1,0 +1,947 @@
+body {
+	background: #f4f4f4;
+	position: absolute;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	color: #000;
+}
+.form-control{
+	color: #939393;
+}
+.wrapper{
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+}
+.header {
+	padding: 0 80px;
+}
+.main-header-bar{
+	height: 90px;
+	background: #08a4d8;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0px 0px 5px #959faf;
+	overflow: hidden;
+}
+.header .logo{
+	float: left;
+}
+.main{
+	/*background: #fff;*/
+	min-height: 360px;
+	/*margin-top: 50px;*/
+	/*margin: 20px 20px 20px 20px;*/
+}
+.main-footer-bar{
+	border-top: 3px solid #e5e5e5;
+	margin-top: 50px;
+}
+.detail{
+	background: #fff;
+	width: 700px;
+	/*border-radius: 5px;*/
+	padding: 20px;
+	box-shadow: 0px 0px 7px #959faf;
+	margin: 0 auto;
+}
+.price{
+	color: red;
+}
+.panduan{
+	background: #fff;
+	width: 700px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0px 0px 7px #959faf;
+}
+.number{
+	background: #16a9de;
+	color: #fff;
+	padding-right: 7px;
+	padding-left: 7px;
+	border-radius: 18px;
+}
+.keterangan{
+	text-align: left;
+}
+.images-keterangan{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.images{
+	max-width: 100%;
+}
+.label-detail{
+	text-align: left;
+	width: 160px;
+}
+/*------------------------------------------------------------------- CHANNEL -----------------------------------------------------*/
+
+.total{
+	background: #fff;
+	width: 700px;
+	margin: 0 auto;
+	/*border-radius: 5px;*/
+	padding: 20px;
+	box-shadow: 0px 0px 5px #959faf;
+}
+.detchannel{
+	background: #fff;
+	width: 700px;
+	margin: 0 auto;
+	/*border-radius: 5px;*/
+	padding: 20px 0;
+	box-shadow: 0px 0px 5px #959faf;
+}
+.total-value{
+	text-align: left;
+}
+.total-value label{
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+.detail-tagihan{
+	text-align: right;
+}
+.title{
+	text-align: left;
+	width: 700px;
+	color: #585858;
+	margin-top: 20px;
+}
+/*.channel{
+	width: 700px;
+	background: #fff;
+	box-shadow: 0px 0px 5px #959faf;
+	margin-bottom: 20px;
+	display: block;
+}*/
+.link{
+	text-decoration: none !important;
+	display: block;
+}
+/*.txt-channel:hover{
+	color: #13a2da;
+}*/
+/*.detail-channel{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	border-bottom: thick solid #f4f4f4;
+}
+.detail-channel .pull-left{
+	width: 65px;
+	margin-top: 5px;
+}*/
+.txt-channel{
+	text-align: left;
+	padding-left: 10px;
+	color: #585858;
+	/*font-size: 12px;*/
+	/*padding-top: 10px;*/
+}
+
+/*------------------------------------------------------------------- CHANNEL -----------------------------------------------------*/
+
+.footer{
+	padding: 10px 80px;
+	display: inline-flex;
+	width: inherit;
+	overflow: hidden;
+}
+@media(max-width: 767px){
+	.footer{
+		padding: 10px 20px;
+	}
+}
+.menu-footer{
+	list-style-type: none;
+	display: inherit;
+	margin-top: 15px;
+	position: absolute;
+	right: 19vw;
+}
+
+/*------------------------------------------------------------------- MOBILE -----------------------------------------------------*/
+@media (max-width: 768px){
+	.header{
+		padding: 6px 0;
+	}
+	.header .logo{
+		width: 270px;
+	}
+	.detail{
+		width: 100%;
+	}
+	.panduan{
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+/*------------------------------------------------------------------- CHANNEL -----------------------------------------------------*/
+
+	.title{
+		width: 100%;
+	}
+	.total{
+		width: 100%;
+	}
+	.detchannel{
+		width: 100%;
+	}
+	.total-value label{
+		font-size: 14px;
+	}
+
+	/*.channel{
+		width: 100%;
+	}*/
+	/*.detail-channel .pull-left{
+		width: 75px;
+		margin-top: 5px;
+	}*/
+	.footer p{
+		margin-top: 5px !important; 
+	}
+
+	.logo-footer{
+		width: 75px;
+		margin-right: 20px;
+	}
+	.menu-footer{
+		margin-top: 25px !important;
+		font-size: 3vw;
+		bottom: 7px;
+	}
+}
+@media(max-width: 320px){
+	.menu-footer{
+		display: none;
+	}
+}
+/*======================================================== CUSTOM CSS ==============================================================*/
+h2.titlepembelian {
+	background-color: #037ccf;
+	color: #fff;
+	width: 700px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 10px 0;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 1px;
+	box-shadow: 0px 0px 5px #959faf;
+}
+.channel a{
+	cursor: pointer;
+}
+.btn-custom1{
+	color: #fff;
+	background-color: #4ea6dc;
+	border-color: #4ea6dc;
+	font-weight: bold;
+	border-radius: 0;
+}
+@media(max-width: 767px){
+	h2.titlepembelian{
+		width: 100%;
+	}
+}
+.game-img{
+	width: 700px;
+	margin: 0 auto;
+}
+@media(max-width: 768px){
+	.game-img{
+		width: auto;
+	}	
+}
+
+/*========================================================================= 1 pembayaran ===========================================================================*/
+ul.listnominal{
+	width: 100%;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 10px; 
+	display: table;
+	font-size: 0;
+}
+ul.listnominal li.nominal {
+	display: inline-table;
+	width: 32.8%;
+	margin: 0 5px 5px 0;
+	font-size: 14px;
+}
+@media(max-width: 768px){
+	ul.listnominal li.nominal {
+		display: inline-table;
+		width: 32%;
+		margin: 0 5px 5px 0;
+		font-size: 14px;
+	}	
+}
+ul.listnominal li.nominal:nth-child(3n){
+	margin-right: 0;
+}
+.listnominal input[type="radio"]:checked+label.listharga {
+	background-color: #fff;
+	border: 1px solid #01aef0;
+}
+.nominal label {
+	margin: 0;
+}
+.listharga {
+	background-color: #f0f0f0;
+	cursor: pointer;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* border-style: ridge; */
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: middle;
+}
+ul.listchannel {
+	display: block;
+	width: 100%;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+ul.listchannel li.channel {
+	display: inline-table;
+	width: 100%;
+	margin: 0 0 5px;
+}
+ul.listchannel li.channel label.labelchannel{
+	background-color: #f0f0f0;
+	border: 1px solid #ddd;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-weight: normal;
+	max-width: 100%;
+	margin-bottom: 0;
+}
+ul.listchannel li.channel label.labelchannel1{
+	background-color: #f0f0f0;
+	border: 1px solid #ddd;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	font-weight: normal;
+	max-width: 100%;
+	margin-bottom: 0;
+}
+ul.listchannel li.channel label.disable{
+	background-color: #bbb;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	cursor: not-allowed;
+}
+ul.listchannel input[type="radio"]:checked+label.labelchannel {
+	background-color: #fff;
+	border: 1px solid #01aef0;
+}
+.detail-channel{
+	display: table;
+	/*min-height: 70px;*/
+	padding: 5px 15px;
+}
+.detail-channel div{
+	display: table-cell;
+	padding-right: 10px;
+	vertical-align: middle;
+	width: 0.1%;
+}
+.detail-channel div > img{
+	width: 100px;
+	height: 50px;
+	object-fit: contain;
+}
+.detail-channel p.txt-channel{
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	line-height: 1.3;
+}
+.detail-channel div.ket{
+	display: table-cell;
+	padding-right: 0;
+	vertical-align: middle;
+	width: 20%;
+	text-align: right;
+}
+.detail-channel div.ket_gameon{
+	display: table-cell;
+	padding-right: 0;
+	vertical-align: middle;
+	width: 20%;
+	text-align: right;
+}
+.detail-channel div.ket span.txtharga{
+	display: block;
+	margin: 0;
+	font-weight: normal;
+	/*font-size: 10px;*/
+}
+.detail-channel div.ket h3.finalprice{
+	margin: 0;
+	font-size: 14px;
+}
+.detail-channel span.disable{
+	display: none;
+	padding-right: 0 !important;
+	vertical-align: middle !important;
+	width: 40% !important;
+	text-align: right !important;
+	font-weight: normal !important;
+	background-color: unset !important;
+}
+p.txt-channel span{
+	display: none;
+	font-size: 10px;
+	font-style: oblique;
+}
+.finalprice{
+	color: red;
+}
+h3.finalprice_kartugameon{
+	margin: 0;
+	font-size: 14px;
+}
+@media(max-width: 768px){
+	.detail-channel div > img{
+		width: 14vw;
+		height: 10vw;
+		object-fit: contain;
+	}
+}
+/*======================================================================= END 1 pembayaran ===========================================================================*/
+
+/*===================================================================== RIBBON ========================================================================================*/
+div.left-arrow {
+	display: block;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 38px;
+	margin: 5px 0;
+	padding: 0 10px;
+	position: relative;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	right: -50%;
+}
+div.left-arrow:before{
+	content: "";
+	border-style: solid;
+	border-width: 0;
+	height: 0;
+	position: absolute;
+	width: 0;
+}
+div.left-arrow:after,
+div.left-arrow:before {
+	border-width: 19px 19px 19px 0;
+}
+
+div.left-arrow:before {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	left: -19px;
+}
+div.left-arrow:hover {
+	right: 0;
+}
+div.left-arrow a{
+	color: #f7f7f7;
+	display: block;
+	text-decoration: none;
+}
+.ribbon-running{
+	position: fixed;
+	right: 0;
+	z-index: 99;
+}
+.green{
+	background-color: #7cac3e;
+}
+.green:before {
+	border-color: transparent #7cac3e;
+}
+.green:hover{
+	background-color: #547f1d;
+}
+.green:hover:before {
+	border-color: transparent #547f1d;
+}
+.orange{
+	background-color: #ff8b32;
+}
+.orange:before {
+	border-color: transparent #ff8b32;
+}
+.orange:hover{
+	background-color: #c96f2a;
+}
+.orange:hover:before {
+	border-color: transparent #c96f2a;
+}
+.blue{
+	background-color: #00aeef;
+}
+.blue:before {
+	border-color: transparent #00aeef;
+}
+.blue:hover{
+	background-color: #0e89b7;
+}
+.blue:hover:before {
+	border-color: transparent #0e89b7;
+}
+@media(max-width: 768px){
+	.ribbon-running{
+		zoom: 0.7;
+	}
+}
+/*===================================================================== END RIBBON ========================================================================================*/
+
+/*======================================================================= PANDUAN ========================================================================================*/
+ul.nav-pills{
+	text-align: center;
+	display: table;
+	font-size: 0;
+	width: 100%;
+}
+ul.nav-pills li{
+	float: unset;
+	border: 1px solid #c3c3c3;
+	display: inline-table;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    padding: 0 20px;
+}
+ul.nav-pills li.active,
+ul.nav-pills li:hover{
+	border: 1px solid #0e99cd;
+}
+ul.nav-pills li a img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 50%;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+    transition: 0.8s all;
+	opacity: 0.6;
+}
+ul.nav-pills li.active a img,
+ul.nav-pills li:hover a img{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	opacity: 1;
+}
+ul.nav-pills li a{
+	color: #000;
+	background-color: transparent;
+	border-color: transparent;
+	padding: 6px 30px;
+	font-size: 14px;
+	border-radius: 0;
+}
+ul.nav-pills li a:hover{
+	color: #979797;
+	background-color: transparent;
+}
+ul.nav-pills li.active > a:hover,
+ul.nav-pills li.active > a:focus{
+	background-color: transparent;
+}
+ul.nav-pills > li.active > a,
+ul.nav-pills > li.active > a:hover,
+ul.nav-pills > li.active > a:focus{
+	color: #979797;
+	background-color: transparent;
+}
+.nav-pills > li + li{
+	margin-left: 0;
+}
+.lyto-panduan-pembelian-content .row{
+    margin: 20px 0;
+}
+.lyto-panduan-pembelian-nomor{
+    font-size: 20pt;
+    color: #037ccf;
+}
+.lyto-panduan-pembelian-channel{
+    font-size: 18pt !important;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+@media(max-width: 768px){
+	ul.nav-pills li{
+		width: 30%;
+	}
+    .lyto-panduan-pembelian h4{
+        margin-top: 20px;
+        display: block !important;
+    }
+    .label{
+        white-space: unset;
+    }
+}
+/*===================================================================== END PANDUAN ========================================================================================*/
+
+
+.a-tips{
+	display: inline-block;
+	max-width: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+}
+.cs{
+	position: relative;
+}
+.a-tips:hover .cs, .a-tips:active .cs{
+	height: auto;
+}
+.cs{
+	top: 0px;
+	position: absolute;
+	height: 0;
+	font-size: 12px;
+	width: 700px;
+	right: auto;
+	left:20px;
+	overflow: hidden;
+	z-index:99;
+	transition: all 1.5s ease;
+}
+ul.region-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+ul.region-list li{
+	flex: 0 0 20%;
+	max-width: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+ul.region-list li .flag-wrapper{
+	width: 70px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+@media(max-width: 768px){
+	ul.region-list{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	ul.region-list li{
+		flex: 0 0 33%;
+		max-width: 33%;
+	}
+	ul.region-list li p{
+		margin: 0 0 3vw;
+		font-size: 3.3vw;
+		width: 1vw;
+	}
+}
+
+
+
+/*===============================================*/
+/*=================== NAVBAR ====================*/
+/*===============================================*/
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.navbar-fixed-top {
+	border-width: 0 0 1px;
+	-webkit-transition: all .3s cubic-bezier(0.65, 0.05, 0.36, 1);
+	-o-transition: all .3s cubic-bezier(0.65, 0.05, 0.36, 1);
+	transition: all .3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+@media(max-width: 768px){
+	.navbar-fixed-top {
+		top: 0;
+	}
+}
+/* initiate biar section bawaah nya affix tidak mendadak scrolling*/
+/*.affix ~ * section {
+	position: relative;
+	top: 52px;
+}*/
+/*.nh-navbar-container{
+	width: 1200px;
+	margin: 0 auto;
+}*/
+.nav > li > a{
+	padding: 0;
+}
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-inverse{
+	background-color: rgb(0 0 0 / 65%);
+	border-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: #cecece;
+	font-family: 'Arial';
+	font-size: 1vw;
+	letter-spacing: 1.5px;
+}
+.navbar-inverse .navbar-nav > li > a.active,
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #ff3636;
+}
+.navbar-nav{
+	float: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5.209vw;
+}
+.navbar-nav > li{
+	float: none;
+	padding: 0 1vw;
+	/*display: inline-table;
+	vertical-align:middle;*/
+}
+.dropdown-menu{
+	background-color: #151618;
+	min-width: 120px;
+}
+.dropdown-menu > li > a{
+	color: #cecfd1;
+	padding: 8px 20px;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+	color: #dd9b3a;
+	text-decoration: none;
+	background-color: #222224;
+}
+.nh-navbar-brand{
+	display: none;
+}
+a.logout{
+	color: #e42525;
+	text-decoration: none;
+}
+@media(max-width: 767px){
+	/*.nh-navbar-container{
+		width: auto;
+	}*/
+	.nh-navbar-container:before {
+		background: unset;
+		background-size: unset;
+		width: auto;
+		height: auto;
+		content: '';
+		float: unset;
+		position: unset;
+	}
+	.navbar-toggle.navbar-left {
+		float: left;
+	}
+	.nav > li > a {
+		padding: 10px 20px;
+	}
+	.navbar-nav{
+		text-align: left;
+	}
+	.navbar-nav > li{
+		display: block;
+	}
+	.glyphicon{
+		font-size: 10pt;
+	}
+	/*.visible-xs {
+		display: inline !important;
+	}*/
+}
+
+@media(max-width: 768px){
+	.dropdown-menu{
+		float: none;
+		position: static;
+		min-width: 100%;
+		-webkit-background-clip: unset;
+		background-clip: unset; 
+		border: none; 
+		border: none; 
+		border-radius: 0; 
+		-webkit-box-shadow: none; 
+		box-shadow: none; 
+		padding: 0;
+		margin: 0; 
+	}
+	.dropdown-backdrop{
+		display: none;
+	}
+	.dropdown-menu > li > a{
+		padding: 10px 40px;
+	}
+	.navbar-toggle {
+		position: relative;
+		float: left;
+		padding: 10px 20px;
+		margin-top: 10px;
+		margin-bottom: 8px;
+		background-color: transparent;
+		background-image: none;
+		border: none;
+		border-radius: 0;
+	}
+	.navbar{
+		border: 0;
+	}
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 40px;
+		height: 4px;
+		border-radius: 0;
+	}
+	.navbar-toggle .icon-bar + .icon-bar {
+		margin-top: 10px;
+	}
+	.affix ~ * section {
+		top: unset;
+	}
+	.nh-navbar-brand{
+		color: #fff;
+		display: block;
+		height: 50px;
+		padding: 15px 15px;
+		font-size: 11pt;
+		line-height: 20px;
+		margin: 10px 0 8px;
+	}
+}
+/*===============================================*/
+/*================= END NAVBAR ==================*/
+/*===============================================*/
+
+/*===============================================*/
+/*=============== NAVBAR MOBILE ================*/
+/*===============================================*/
+.nh-nav-overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1111;
+}
+.nh-nav-sidenav {
+	font-family: 'Arial';
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 11112;
+	top: 0;
+	left: 0;
+	background-color: #151618;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-bottom: 20px;
+}
+#judulmenu {
+	background-color: #151618;
+	height: 70px;
+	color: #ff3636;
+	border-bottom: 1px solid #222224;
+}
+#nh-nav-judulmenu{
+	background-color: 151618;
+	height: 59px;
+	color: #ff3636;
+	margin-bottom: 10px;
+}
+.nh-nav-sidenav a img{
+	margin-right: 20px;
+	position: relative;
+	left: 5px;
+}
+.nh-nav-sidenav #judulmenu span{
+	padding: 22px 21px;
+	float: left;
+	font-size: 4.5vw;
+	/* font-weight: bold; */
+}
+.nh-nav-sidenav a {
+	padding: 10px 10px 10px 22px;
+	text-decoration: none;
+	font-size: 3.5vw;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+	border-bottom: 1px solid #222224;
+}
+.nh-nav-sidenav a:hover, .offcanvas a:focus{
+	color: #ff3636;
+}
+.nh-nav-sidenav a.closebtn:hover, .offcanvas a:focus{
+	color: #ff3636;
+}
+.nh-nav-sidenav a.selected, .offcanvas a.selected{
+	color: #ff3636;
+}
+.nh-nav-sidenav .closebtn {
+	color: #ff3636;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	padding-top: 8px;
+	margin-left: 50px;
+	font-weight: bold;
+	height: 70px;
+}
+.nh-navbar-mobile{
+	list-style-type: none;
+	padding-left: 0;
+}
+.nh-navbar-mobile li a.active{
+	color: #ff3636;
+}
+.nh-nav-separator{
+	border-left: 1px solid #fff;
+	float: left;
+	margin: 10px 15px 0 0;
+	height: 40px;
+	width: 1px;
+}
+/*===============================================*/
+/*============= END NAVBAR MOBILE ===============*/
+/*===============================================*/
+
+
+
+
